@@ -14,10 +14,16 @@ public class Factorial {
         } catch (Exception e) {
             System.out.println("Ошибка! Введите число!");
         }
-        for (int i = 1; i <= n; i++) {
-            f = f * i;
+        if (n < 0) {
+            System.out.println("Нет факториала!");
+        } else if (n == 0) {
+            System.out.println("F = 1");
+        } else {
+            for (int i = 1; i <= n; i++) {
+                f = f * i;
+            }
+            System.out.println("F =" + f);
         }
-        System.out.println("f="+f);
     }
 }
 
