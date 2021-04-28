@@ -1,4 +1,4 @@
-package DragonWorld;
+package lab_7_DragonWorld;
 
 public class Dragon {
     private String name;

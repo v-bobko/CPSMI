@@ -1,4 +1,4 @@
-package lab;
+package lab_cо_2_по_6_и_16;
 
 import java.util.Scanner;
 
