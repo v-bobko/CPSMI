@@ -1,4 +1,4 @@
-package lab_13;
+package lab_13_SledMatrici;
 
 import java.util.Scanner;
 import java.util.Random;
