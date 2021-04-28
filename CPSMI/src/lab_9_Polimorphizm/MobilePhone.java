@@ -6,7 +6,7 @@ public class MobilePhone extends Telephone {
     }
 
     @Override
-    public void ring (){
-        System.out.println(getName()+": Играет мелодия....");
+    public void ring() {
+        System.out.println(getName() + ": Играет мелодия....");
     }
 }

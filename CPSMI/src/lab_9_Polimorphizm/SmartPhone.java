@@ -7,6 +7,6 @@ public class SmartPhone extends MobilePhone {
 
     @Override
     public void ring() {
-        System.out.println(getName()+": Я на беззвучке...Бзззззззз");
+        System.out.println(getName() + ": Я на беззвучке...Бзззззззз");
     }
 }
