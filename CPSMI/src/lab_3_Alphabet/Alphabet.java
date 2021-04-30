@@ -1,4 +1,4 @@
-package lab_cо_2_по_6_и_16;
+package lab_3_Alphabet;
 
 public class Alphabet {
     public static void main(String[] args) {

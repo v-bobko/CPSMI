@@ -1,4 +1,4 @@
-package lab_cо_2_по_6_и_16;
+package lab_5_QuadraticEquation;
 
 import java.util.Scanner;
 

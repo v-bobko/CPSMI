@@ -1,4 +1,4 @@
-package lab_cо_2_по_6_и_16;
+package lab_16_Factorial;
 
 import java.util.Scanner;
 
