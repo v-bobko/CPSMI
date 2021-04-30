@@ -1,4 +1,4 @@
-package vk;
+package lab_14_Spisok;
 
 public class list {
     Element head = null;
@@ -27,11 +27,20 @@ public class list {
         }
     }
 
+    public void remove() {
+        Element a = head;
+        head = a.element;
+    }
+
     public static void main(String[] args) {
         list myList = new list();
+
         myList.addToList(new Element(101));
         myList.addToList(new Element(202));
         myList.addToList(new Element(303));
+        myList.showList();
+        System.out.println();
+        myList.remove();
         myList.showList();
         System.out.println(myList.getListSize());
     }
